@@ -11,7 +11,7 @@
 // // How to delete a property from an object
 // delete user.age;
 
-// How to us multiword property but name must be quoted
+// // How to us multiword property but name must be quoted
 // let user = {
 //     name: "John",
 //     age: 30,
@@ -21,11 +21,22 @@
 // let key = prompt("what do you want to know about the user?", "name");
 // alert( user["likes birds"]);
 
-// Using Square brackets to set multiword property
-let user = {};
+// // Using Square brackets to set multiword property
+// let user = {};
 
 // set
-user["likes birds"] = true;
+// user["likes birds"] = true;
 
 // get
-alert(user["likes birds"]); 
+// alert(user["likes birds"]); 
+
+// Using the variable key calculate and access a property
+let user = {
+    name: "John",
+    age: 30
+  };
+  
+  let key = prompt("What do you want to know about the user?", "name");
+  
+  // access by variable
+  alert( user[key] ); 
