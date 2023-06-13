@@ -1,0 +1,1 @@
+This project is basically about learning how objects work and different object methods in programing
